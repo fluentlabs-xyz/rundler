@@ -4,7 +4,7 @@
 
 UNIT_TEST_ARGS := --locked --workspace --all-features --no-fail-fast
 PROFILE ?= release
-DOCKER_IMAGE_NAME ?= alchemyplatform/rundler
+DOCKER_IMAGE_NAME ?= ghcr.io/fluentlabs-xyz/rundler
 BIN_DIR = "dist/bin"
 BUILD_PATH = "target"
 GIT_TAG ?= $(shell git describe --tags --abbrev=0)
